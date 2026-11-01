@@ -1,0 +1,6 @@
+node_modules
+.vercel
+.DS_Store
+
+# Consignes internes, hors du dépôt public
+PROMPT_CLAUDE_CODE.md
