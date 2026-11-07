@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="assets/logo-softsolution.png" width="72" alt="Soft Solution">
+<img src="assets/logo-facette.png" width="72" alt="Facette">
 
 # Nuit Blanche
 
-**Le portfolio jouable de Soft Solution, studio digital basé à Douala.**
+**Le portfolio jouable de Facette, studio digital basé à Douala.**
 
 Sept projets réels reviennent la nuit sous forme de zombies, du plus faible au plus fort.<br>
 Abats-les un par un : chaque zombie tombé ouvre le dossier complet du projet qu'il porte sur la poitrine.
 
-### [▶ Jouer en ligne](https://soft-solution-portfolio.vercel.app)
+### [▶ Jouer en ligne](https://facette-portfolio.vercel.app)
 
 <img src="docs/demo.gif" width="760" alt="Une partie de Nuit Blanche : le joueur abat le zombie de NeuroFlow SMS et ouvre son dossier">
 
@@ -53,8 +53,8 @@ Les balles et les esquives sont illimitées. Pressé ? **Voir les projets sans j
 ## Lancer en local
 
 ```bash
-git clone https://github.com/beltus2-ctrl/soft-solution-portfolio.git
-cd soft-solution-portfolio
+git clone https://github.com/beltus2-ctrl/facette-portfolio.git
+cd facette-portfolio
 npx serve .        # ou : python -m http.server 8080
 ```
 
@@ -69,7 +69,7 @@ vercel --prod
 
 <div align="center">
 
-**Soft Solution** · Sites web, applications mobiles et logiciels métier, à Douala.<br>
-WhatsApp : +237 6 58 73 58 81 · softsolution3@outlook.com
+**Facette** · Sites web, applications mobiles et logiciels métier, à Douala.<br>
+WhatsApp : +237 6 58 73 58 81 · facette3@outlook.com
 
 </div>

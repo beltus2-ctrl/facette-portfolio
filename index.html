@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Nuit Blanche · Soft Solution</title>
-<meta name="description" content="Nuit Blanche : le portfolio jouable de Soft Solution, studio digital à Douala. 7 projets réels, 7 zombies à abattre pour ouvrir chaque dossier.">
+<title>Nuit Blanche · Facette</title>
+<meta name="description" content="Nuit Blanche : le portfolio jouable de Facette, studio digital à Douala. 7 projets réels, 7 zombies à abattre pour ouvrir chaque dossier.">
 <meta name="theme-color" content="#0C0A1A">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Nuit Blanche · le portfolio jouable de Soft Solution">
+<meta property="og:title" content="Nuit Blanche · le portfolio jouable de Facette">
 <meta property="og:description" content="7 projets réels, 7 zombies du plus faible au plus fort. Abats-les pour ouvrir chaque dossier.">
-<meta property="og:url" content="https://soft-solution-portfolio.vercel.app/">
-<meta property="og:image" content="https://soft-solution-portfolio.vercel.app/og-image.jpg">
+<meta property="og:url" content="https://facette-portfolio.vercel.app/">
+<meta property="og:image" content="https://facette-portfolio.vercel.app/og-image.jpg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="assets/logo-softsolution.png">
+<link rel="icon" type="image/png" href="assets/logo-facette.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* Soft Solution brand system: indigo + or + ivoire, losange, coins coupés.
+/* Facette brand system: indigo + or + ivoire, losange, coins coupés.
    Layout: the 3D night arena fills the screen; HUD hugs the corners; dossiers open as ivory sheets on top. */
 :root{
   --night:#0C0A1A;
@@ -254,10 +254,10 @@ body.is-touch.playing #touch{display:block}
 <!-- Title -->
 <section id="title" class="hidden" aria-label="Écran titre">
   <div class="col">
-    <img class="wordmark" src="assets/wordmark.png" alt="Soft Solution" width="640" height="187">
+    <img class="wordmark" src="assets/wordmark.png" alt="Facette" width="640" height="187">
     <div class="eyebrow">Portfolio jouable · Studio digital basé à Douala</div>
     <h1>Nuit<span>blanche</span></h1>
-    <p class="lede">Sept projets de Soft Solution reviennent cette nuit sous forme de zombies, du plus faible au plus fort. Abats-les un par un : chaque zombie tombé ouvre le dossier complet du projet qu'il porte sur la poitrine.</p>
+    <p class="lede">Sept projets de Facette reviennent cette nuit sous forme de zombies, du plus faible au plus fort. Abats-les un par un : chaque zombie tombé ouvre le dossier complet du projet qu'il porte sur la poitrine.</p>
     <div class="actions">
       <button class="btn btn-gold" id="playBtn">◆ Lancer la partie</button>
       <button class="btn btn-ghost" id="skipBtn">Voir les projets sans jouer</button>
@@ -281,7 +281,7 @@ body.is-touch.playing #touch{display:block}
 
 <!-- HUD -->
 <section id="hud" class="hidden" aria-label="Interface de jeu">
-  <div class="tl"><img src="assets/logo-softsolution.png" alt=""><div class="lvl"><small id="lvlNum">Zombie 1/7</small>Nuit blanche</div></div>
+  <div class="tl"><img src="assets/logo-facette.png" alt=""><div class="lvl"><small id="lvlNum">Zombie 1/7</small>Nuit blanche</div></div>
   <div class="tr">
     <button class="hud-btn" id="dossBtn">Dossiers <b id="dossCount">0/7</b></button>
     <button class="hud-btn" id="muteBtn" aria-label="Couper le son">♪</button>
@@ -344,7 +344,7 @@ body.is-touch.playing #touch{display:block}
     <div class="scroll">
       <div class="index-head">
         <div class="eyebrow">Dossiers récupérés</div>
-        <h2 id="iTitle">Le portfolio de Soft Solution</h2>
+        <h2 id="iTitle">Le portfolio de Facette</h2>
         <p id="iLede"></p>
       </div>
       <div class="grid" id="iGrid"></div>
@@ -383,10 +383,10 @@ body.is-touch.playing #touch{display:block}
     <div class="scroll"><div class="end">
       <div class="eyebrow">Les 7 zombies sont tombés</div>
       <h2>L'aube se lève sur Douala.</h2>
-      <p>Sept projets, du SMS de masse au logiciel de caisse anti-fraude, en passant par un jeu d'échecs. Le prochain sur la liste peut être le vôtre : site, application mobile ou logiciel métier, Soft Solution le construit de bout en bout.</p>
+      <p>Sept projets, du SMS de masse au logiciel de caisse anti-fraude, en passant par un jeu d'échecs. Le prochain sur la liste peut être le vôtre : site, application mobile ou logiciel métier, Facette le construit de bout en bout.</p>
       <div class="contact">
         <div><small>WhatsApp / Téléphone</small><span>+237 6 58 73 58 81</span></div>
-        <div><small>E-mail</small><span>softsolution3@outlook.com</span></div>
+        <div><small>E-mail</small><span>facette3@outlook.com</span></div>
       </div>
       <div class="row">
         <a class="btn btn-gold" href="https://wa.me/237658735881" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
@@ -665,7 +665,7 @@ function buildWorld(logoImg, wordImg){
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(160,160), new THREE.MeshStandardMaterial({map:groundTex, roughness:.92, metalness:.05}));
   ground.rotation.x=-Math.PI/2; ground.receiveShadow=true; scene.add(ground);
 
-  // arena floor paint: big Soft Solution losange in the middle
+  // arena floor paint: big Facette losange in the middle
   if(logoImg){
     const emb = canvasTex(512,512,(g,w,h)=>{ g.globalAlpha=.9; g.drawImage(logoImg,0,0,w,h); });
     const e = new THREE.Mesh(new THREE.PlaneGeometry(13,13), new THREE.MeshStandardMaterial({map:emb, transparent:true, opacity:.2, roughness:.8, depthWrite:false}));
@@ -895,7 +895,7 @@ function buildMinion(){
 }
 function buildPlayer(){
   const h=buildHumanoid({skin:'#6b4532', shirt:'#3B2E86', pants:'#1E1B3A', kind:'player', scale:1});
-  const back=new THREE.Mesh(new THREE.PlaneGeometry(.36,.36), new THREE.MeshBasicMaterial({map:getLogoTex('assets/logo-softsolution.png'), transparent:true}));
+  const back=new THREE.Mesh(new THREE.PlaneGeometry(.36,.36), new THREE.MeshBasicMaterial({map:getLogoTex('assets/logo-facette.png'), transparent:true}));
   back.position.set(0,.05,-.232); back.rotation.y=Math.PI; h.torso.add(back);
   const hood=bx(.66,.18,.3,std(0x2C2168)); hood.position.set(0,.43,-.12); h.torso.add(hood);
   const gun=new THREE.Group(); const gb=bx(.14,.16,.62,std(0x1c1b22,{metalness:.6,roughness:.35})); gb.position.z=.18; gun.add(gb);
@@ -1146,7 +1146,7 @@ $('#quitBtn').onclick=()=>{ hide('#paused'); startTitle(); };
 function victory(){ G.state='victory'; clearLevel(); hide('#boss'); setHint(''); show('#victory'); Snd.pickup(); }
 $('#replayBtn').onclick=()=>{ hide('#victory'); G.pos.set(0,0,8); rebuildWeapon(); startLevel(0); };
 $('#vIndexBtn').onclick=()=>{ hide('#victory'); openIndex(); };
-$('#copyMail').onclick=async()=>{ try{ await navigator.clipboard.writeText('softsolution3@outlook.com'); $('#copyMail').textContent='E-mail copié'; }catch(e){ $('#copyMail').textContent='softsolution3@outlook.com'; } };
+$('#copyMail').onclick=async()=>{ try{ await navigator.clipboard.writeText('facette3@outlook.com'); $('#copyMail').textContent='E-mail copié'; }catch(e){ $('#copyMail').textContent='facette3@outlook.com'; } };
 $('#playBtn').onclick=startGame;
 $('#skipBtn').onclick=()=>{ PROJECTS.forEach(p=>unlocked.add(p.id)); rebuildWeapon(); save(); updateCounts(); openIndex(); };
 
@@ -1367,7 +1367,7 @@ async function boot(data){
   load(); if(data && Array.isArray(data.unlocked)) data.unlocked.forEach(x=>unlocked.add(x));
   rebuildWeapon();
   try{ await Promise.race([document.fonts.ready, new Promise(r=>setTimeout(r,2500))]); await Promise.all([document.fonts.load('italic 900 46px Montserrat'),document.fonts.load('600 30px Poppins')]).catch(()=>{}); }catch(e){}
-  const [logoImg, wordImg] = await Promise.all([loadImg('assets/logo-softsolution.png'), loadImg('assets/wordmark.png')]);
+  const [logoImg, wordImg] = await Promise.all([loadImg('assets/logo-facette.png'), loadImg('assets/wordmark.png')]);
   buildWorld(logoImg, wordImg);
   plates = await Promise.all(PROJECTS.map(p=>plateSprite(p)));
   G.player=buildPlayer(); scene.add(G.player.root); G.player.root.visible=false;

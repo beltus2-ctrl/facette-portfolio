@@ -1,6 +1,6 @@
 # v1.0.0 — Nuit Blanche
 
-Première version du portfolio jouable de Soft Solution.
+Première version du portfolio jouable de Facette.
 
 🧟 **7 projets réels, 7 zombies.** Chaque zombie porte le logo d'un projet sur la poitrine. Abats-le pour ouvrir son dossier : écrans de l'application, besoin, fonctionnalités, stack.
 
@@ -13,4 +13,4 @@ Première version du portfolio jouable de Soft Solution.
 
 **Technique** : Three.js r160, Web Audio API, un seul fichier HTML, hébergé sur Vercel.
 
-▶ Jouer : https://soft-solution-portfolio.vercel.app
+▶ Jouer : https://facette-portfolio.vercel.app
